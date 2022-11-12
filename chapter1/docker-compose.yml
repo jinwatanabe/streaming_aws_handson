@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    container_name: comment_sock
+    container_name: streaming
     volumes:
       - ./:/usr/src
     command: sh -c 'yarn start'
