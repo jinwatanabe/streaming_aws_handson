@@ -4,7 +4,7 @@ import { Credentials } from "aws-sdk";
 import { Upload } from "@aws-sdk/lib-storage";
 import { S3Client } from "@aws-sdk/client-s3";
 
-import ImageLogo from "./image.svg";
+// import ImageLogo from "./image.svg";
 
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -75,7 +75,7 @@ function App() {
                 >
                   <input {...getInputProps()} />
                   <div className="container flex justify-center mb-2">
-                    <img src={ImageLogo} alt="imagelogo" />
+                    {/* <img src={ImageLogo} alt="imagelogo" /> */}
                   </div>
                   <div className="container flex justify-center text-xs text-gray-500">
                     <p>ここにドラッグ＆ドロップしてね</p>
